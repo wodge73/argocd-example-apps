@@ -10,4 +10,5 @@ spec:
         #image: <lan-host>:<port>/<image-name>:<tag>
         imagePullPolicy: IfNotPresent
         name: flask
+    nodea
 status: {}
