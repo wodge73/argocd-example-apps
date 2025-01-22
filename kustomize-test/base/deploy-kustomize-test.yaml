@@ -13,7 +13,7 @@ spec:
         - /bin/sh
         - -c
         - echo 'spuds' && sleep 3600
-        image: busybox:latest
+        image: nginx
         name: flask
         resources: {}
         ports:
