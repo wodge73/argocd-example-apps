@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kustomize-test
+spec:
+  replicas: 3
+  strategy: {}
+  template:
+    metadata:
+    spec:
+      containers:
+      - args:
+        - /bin/sh
+        - -c
+        - echo 'spuds' && sleep 3600
+        image: 192.168.0.189/busybox:latest
+        name: flask
+        resources: {}
+        ports:
+        - containerPort: 80
+        volumeMounts:
+          - name: config
+            mountPath: /config
+      volumes:
+      - name: config
+        configMap:
+          name: my-config
+status: {}
