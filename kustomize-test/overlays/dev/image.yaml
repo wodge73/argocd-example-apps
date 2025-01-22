@@ -6,6 +6,6 @@ spec:
   template:
     spec:
       containers:
-      - image: busybox
+      - image: nginx
         name: flask
 status: {}
