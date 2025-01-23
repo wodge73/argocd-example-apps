@@ -11,7 +11,7 @@ spec:
     - /bin/sh
     - -c
     - echo "spud wicker!" && sleep 1d
-    image: 192.168.0.189/busybox:latest
+    image: 192.168.0.189/alpine:latest
     name: temp2
     resources: {}
   dnsPolicy: ClusterFirst
