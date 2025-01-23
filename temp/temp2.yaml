@@ -12,6 +12,7 @@ spec:
     - -c
     - echo "spud wicker!" && sleep 1d
     image: 192.168.0.189/busybox:latest
+    imagePullPolicy: Always
     name: temp2
     resources: {}
   dnsPolicy: ClusterFirst
