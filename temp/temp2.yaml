@@ -6,6 +6,7 @@ metadata:
     run: temp2
   name: temp2
 spec:
+  nodeName: c1-node3 
   containers:
   - args:
     - /bin/sh
