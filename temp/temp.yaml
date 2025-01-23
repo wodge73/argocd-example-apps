@@ -14,7 +14,7 @@ spec:
     image: 192.168.0.189/busybox:latest
     name: temp
     resources: {}
-  nodeName: c1-node1
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
+
