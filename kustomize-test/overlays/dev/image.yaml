@@ -7,7 +7,6 @@ spec:
     spec:
       containers:
       - image: 192.168.0.189/busybox:latest
-        #image: <lan-host>:<port>/<image-name>:<tag>
         imagePullPolicy: Always
         name: flask
       nodeName: c1-node1
