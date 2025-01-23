@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: kustomize-test
 spec:
-  replicas: 1
+  replicas: 30
