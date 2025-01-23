@@ -10,5 +10,5 @@ spec:
         #image: <lan-host>:<port>/<image-name>:<tag>
         imagePullPolicy: Always
         name: flask
-      nodeName: c1-node1
+      nodeName: c1-node2
 status: {}
