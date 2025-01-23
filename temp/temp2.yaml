@@ -10,7 +10,7 @@ spec:
   - args:
     - /bin/sh
     - -c
-    - echo "spud" && sleep 1d
+    - echo "spud wicker!" && sleep 1d
     image: 192.168.0.189/busybox:latest
     name: temp2
     resources: {}
