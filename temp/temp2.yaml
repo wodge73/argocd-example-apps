@@ -11,7 +11,7 @@ spec:
   - args:
     - /bin/sh
     - -c
-    - echo "spud wicker!" && sleep 1d
+    - echo "spud wickerdy dickerdy!" && sleep 1d
     image: 192.168.0.189:5000/busybox:latest
     imagePullPolicy: Always
     name: temp2
